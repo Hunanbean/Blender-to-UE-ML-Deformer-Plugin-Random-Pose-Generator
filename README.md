@@ -9,5 +9,5 @@ I suggest testing with fewer poses, perhaps 100, before investing those resource
 once Poses are keyframed, export your FBX to go to UE. Also, Export an Alembic of the same(as what you put in the FBX)
 Then, follow the Epic/Unreal Documentation found here. https://docs.unrealengine.com/5.1/en-US/how-to-use-the-machine-learning-deformer-in-unreal-engine/
 
-During your testing phase, determine if you should import the Alembic starting at frame 1 or 0. I suggest 1
+During your testing phase, determine if you should import the Alembic starting at frame 1 or 0. I suggest 1.
 Also, when importing your FBX, use the Animation Time as the animation length setting.
