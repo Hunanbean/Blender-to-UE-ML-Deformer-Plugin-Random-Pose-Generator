@@ -1,3 +1,6 @@
+#Code by Hunanbean and ChatGPT4
+#GPL3 applies to the Script itself, NOT to the output
+
 import bpy
 import mathutils
 import numpy as np
