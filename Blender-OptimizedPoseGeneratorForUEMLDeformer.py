@@ -66,8 +66,8 @@ for joint_name in joint_list:
 bpy.ops.object.mode_set(mode='OBJECT')
 
 # Start randomization at frame 2
+bpy.ops.object.mode_set(mode='POSE')
 for frame in range(2, num_frames + 1):
-    bpy.ops.object.mode_set(mode='POSE')
     for joint_name, limits in joint_list.items():
         set_random_pose(ob.pose.bones[joint_name], limits)
         keyframe_pose(joint_name, limits, frame)
