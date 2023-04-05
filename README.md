@@ -1,6 +1,7 @@
 # Blender-to-UE-ML-Deformer-Plugin-Random-Pose-Generator
 This script will generate random poses for Bone/Joints you specify for use as a base for Unreal Engine Machine Learning Training to fix your Characters Mesh Deformations when Animated.
 
+IMPORTANT: Due to Unreal Engine weirdness, the .FBX and the .ABC CANNOT have the same exact name. model.fbx and model.abc will Not work. model.fbx and modelx.abc will.
 
 Update the Joint dictionary and the Armature Name (currently root), to match your needs. Also, update the joint limits as you see fit.
 Epic documentation suggests 20,000 to 50,000 random poses. That will create HUGE files in the end. in the multiple Gigabyte range.
