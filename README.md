@@ -11,6 +11,6 @@ once Poses are keyframed, export your FBX to go to UE. Also, Export an Alembic o
 Then, follow the Epic/Unreal Documentation found here. https://docs.unrealengine.com/5.1/en-US/how-to-use-the-machine-learning-deformer-in-unreal-engine/
 
 During your testing phase, determine if you should import the Alembic starting at frame 1 or 0. I suggest 1.
-Also, when importing your FBX, use the Animation Time as the animation length setting.
+Also, when importing your FBX, use the Exported Time as the animation length setting.
 
 Don't forget to tune the joint limits to your skeleton
